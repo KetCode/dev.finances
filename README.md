@@ -4,7 +4,7 @@ Website em desenvolvimento apartir da participação de uma maratona discovery d
 ### Features
 
 - [x] Aula 1: Front-end
-- [ ] Aula 2: Finalização do HTML + CSS
+- [x] Aula 2: Finalização do HTML + CSS
 - [ ] Aula 3: Adicionando JavaScript e finalizando a aplicação
 
 
