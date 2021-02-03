@@ -5,7 +5,7 @@ Website em desenvolvimento apartir da participação de uma maratona discovery d
 
 - [x] Aula 1: Front-end
 - [x] Aula 2: Finalização do HTML + CSS
-- [ ] Aula 3: Adicionando JavaScript e finalizando a aplicação
+- [x] Aula 3: Adicionando JavaScript e finalizando a aplicação
 
 
 <h4 align="center"> 
