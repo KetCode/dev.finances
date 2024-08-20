@@ -54,6 +54,13 @@ const Transaction = {
     },
     total() {
         return Transaction.incomes() + Transaction.expenses();
+    },
+    sortByDate() {
+        Transaction.all.sort((a, b) => {
+            const dateA = new Date(a.date.split('/').reverse().join('-'))
+            const dateB = new Date(b.date.split('/').reverse().join('-'))
+            return dateB - dateA;
+        })
     }
 }
 
@@ -175,6 +182,7 @@ const Form = {
 
 const App = {
     init() {
+        Transaction.sortByDate()
         Transaction.all.forEach(DOM.addTransaction)
         
         DOM.updateBalance()
