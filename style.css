@@ -107,13 +107,13 @@ button:hover {
 /* Header ========================= */
 header {
     background: #2D4A22;
-    padding: 2rem 0 13rem;
+    padding: 2rem 0 11rem;
     text-align: center;
 }
 
 /* Balance ========================= */
 #balance {
-    margin-top: -8rem;
+    margin-top: -6rem;
 }
 
 #balance h2 {
@@ -141,7 +141,7 @@ header {
 }
 
 .card p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 3rem;
 
     margin-top: 1rem;
